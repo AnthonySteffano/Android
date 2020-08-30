@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMenu"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonToogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_toogle" />
+
+        <Button
+            android:id="@+id/btnArray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_arraylist" />
+
+        <Button
+            android:id="@+id/buttonAut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_autocomplet" />
+
+        <Button
+            android:id="@+id/button_Spin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_spinner" />
+
+        <Button
+            android:id="@+id/button_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_radio" />
+
+        <Button
+            android:id="@+id/buttonMenuPop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_menu_popup" />
+
+        <Button
+            android:id="@+id/buttonLongPress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_long_press" />
+
+        <Button
+            android:id="@+id/buttonTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button Tab" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
